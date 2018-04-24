@@ -1,0 +1,96 @@
+
+a
+{
+text-decoration:none;
+}
+
+
+#title
+{
+text-align: center;
+padding: 10px;
+font-family: 'Roboto', sans-serif;
+font-size: 23px;
+}
+
+#quote
+{
+text-align: center;
+padding: 10px;
+}
+
+#image1
+{
+text-align: center;
+padding: 20px;
+}
+
+#image2
+{
+text-align: center;
+padding: 20px;
+}
+
+
+#legalmention
+{
+/*text-align: right;*/
+background-color: #686868;
+position: fixed;
+left: 0;
+bottom: 0;  
+width: 100%;
+padding:10px;
+} 
+
+#legalstuff
+{
+color: white;
+text-shadow: 2px 2px black;
+font-family: 'Roboto', sans-serif;
+float: right;
+margin-right: 60px;
+margin-bottom: 40px;
+}
+
+#click
+{
+padding: 4px 4px;
+background-color: #4878c4;
+border: 5px solid #4878c4;
+border-radius:15px;
+animation-name: example;
+animation-duration: 3s;
+animation-iteration-count: 10;
+}
+
+@keyframes example 
+{
+    from {background-color:#4878c4;}
+    to {background-color: #2dad67;}
+}
+
+@keyframes spin { 
+100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+
+.goodenough 
+{
+
+background: url("images/david2.jpg") center;
+position: left;
+top: 50%;
+left: 50%;
+width: 120px;
+height: 120px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+   
+}
+
+.container
+{
+display: flex;
+justify-content: center;
+}
